@@ -20,7 +20,7 @@ namespace aporte2{
             Console.WriteLine("Funcionalidades: ");
             Console.WriteLine("1. "+funcionalidad1);
             Console.WriteLine("2. "+funcionalidad2);
-            Console.WriteLine("3. "+funcionalidad3);
+            Console.WriteLine("3. "+funcionalidad3); 
         }
     }
 }
