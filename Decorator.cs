@@ -6,10 +6,10 @@ public class Decorador{
     {
         this.orden= orden;
     }
-    public virtual string extension(){
-      return orden.extension();
+    public virtual string software(){
+      return orden.software();
     }
     public virtual string reparacion(){
-      return orden.extension();
+      return orden.reparacion();
     }
 }

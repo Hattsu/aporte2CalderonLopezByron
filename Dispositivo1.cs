@@ -1,11 +1,11 @@
 public class Dispositivo1:OrdenBase
     {
     public override string reparacion(){
-    var repa = "Has reparado tu telefono";
+    var repa = "en repacion el dispositivo 1";
     return repa;
     }
-   public override string extension(){
-    var repa = "Desea agregar una extencion?";
+   public override string software(){
+    var repa = "Agregando un hardware adicional al dispositivo 1";
     return repa;
     }
 }
