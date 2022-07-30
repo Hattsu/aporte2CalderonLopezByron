@@ -1,8 +1,8 @@
 public class Formateo: Decorador{
 
     public Formateo(OrdenBase ordenBase):base(ordenBase){ }
-    public virtual string reparacion(){
-        var repacion = "El formateo para tu celular esta completo..";
-          return repacion;
+    public virtual string reparar_dispositivo(){
+        var reparar = "Reparando por formateo del dispositivo... completo";
+          return reparar;
     }
 }

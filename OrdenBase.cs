@@ -1,7 +1,7 @@
 using System;
 public abstract class OrdenBase
 {
-    public abstract string reparacion();  
-    public abstract string software();  
+    public abstract string reparar_dispositivo();  
+    public abstract string hardware();  
 
 }

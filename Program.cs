@@ -5,71 +5,71 @@
     public static void Main(String[] args)
     {
 
-        //telefono #1
+        //celular #1
         Console.WriteLine("------------------------------------------");
-        var telefono = new Dispositivo1();
-        Console.WriteLine(telefono.reparacion());
+        var celular1 = new Dispositivo1();
+        Console.WriteLine(celular1.reparar_dispositivo());
 
-        var reparacion = new PantallaRota(telefono);
-        Console.WriteLine(reparacion.reparacion());
+        var reparacion1 = new PantallaRota(celular1);
+        Console.WriteLine(reparacion1.reparar_dispositivo());
 
-        var reparacion2 = new Agua(telefono);
-        Console.WriteLine(reparacion2.reparacion());
+        var reparacion2 = new Agua(celular1);
+        Console.WriteLine(reparacion2.reparar_dispositivo());
 
-        var reparacion3 = new Formateo(telefono);
-        Console.WriteLine(reparacion3.reparacion());
+        var reparacion3 = new Formateo(celular1);
+        Console.WriteLine(reparacion3.reparar_dispositivo());
 
-        Console.WriteLine(telefono.software());
+        Console.WriteLine(celular1.hardware());
 
-        var cargador = new Cargador(telefono);
-        Console.WriteLine(cargador.software());
+        var cargador = new Cargador(celular1);
+        Console.WriteLine(cargador.hardware());
         Console.WriteLine("------------------------------------------");
 
 
 
 
-        //telefono 2
+        //celular #2
         Console.WriteLine("");
         Console.WriteLine("------------------------------------------");
-        var telefono2 = new Dispositivo2();
-        Console.WriteLine(telefono2.reparacion());
+        var celular2 = new Dispositivo2();
+        Console.WriteLine(celular2.reparar_dispositivo());
 
-        var reparacion4 = new Agua(telefono2);
-        Console.WriteLine(reparacion4.reparacion());
+        var reparacion4 = new Agua(celular2);
+        Console.WriteLine(reparacion4.reparar_dispositivo());
 
-        var reparacion5 = new Formateo(telefono2);
-        Console.WriteLine(reparacion5.reparacion());
+        var reparacion5 = new Formateo(celular2);
+        Console.WriteLine(reparacion5.reparar_dispositivo());
 
-        var reparacion6 = new PantallaRota(telefono);
-        Console.WriteLine(reparacion6.reparacion());
+        var reparacion6 = new PantallaRota(celular2);
+        Console.WriteLine(reparacion6.reparar_dispositivo());
 
-        Console.WriteLine(telefono2.software());
+        Console.WriteLine(celular2.hardware());
 
-        var parlante2 = new Parlante(telefono2);
-        Console.WriteLine(parlante2.software());
+        var parlante2 = new Parlante(celular2);
+        Console.WriteLine(parlante2.hardware());
         Console.WriteLine("");
         Console.WriteLine("------------------------------------------");
         Console.WriteLine("");
         Console.WriteLine("------------------------------------------");
 
 
-        //telefono 3
-        var telefono3 = new Dispositivo3();
-        Console.WriteLine(telefono3.reparacion());
+        //celular 3
+        var celular3 = new Dispositivo3();
+        Console.WriteLine(celular3.reparar_dispositivo());
 
-        var reparacion7 = new Agua(telefono3);
-        Console.WriteLine(reparacion7.reparacion());
+        var reparacion7 = new Agua(celular3);
+        Console.WriteLine(reparacion7.reparar_dispositivo());
 
-        var reparacion8 = new Formateo(telefono3);
-        Console.WriteLine(reparacion8.reparacion());
+        var reparacion8 = new Formateo(celular3);
+        Console.WriteLine(reparacion8.reparar_dispositivo());
 
-        var reparacion9 = new PantallaRota(telefono3);
-        Console.WriteLine(reparacion9.reparacion());
+        var reparacion9 = new PantallaRota(celular3);
+        Console.WriteLine(reparacion9.reparar_dispositivo());
 
-        Console.WriteLine(telefono3.software());
+        Console.WriteLine(celular3.hardware());
 
-        var audifonos3 = new Audifonos(telefono3);
-        Console.WriteLine(audifonos3.software());
+        var audifonos3 = new Audifonos(celular3);
+        Console.WriteLine(audifonos3.hardware());
         Console.WriteLine("");
         Console.WriteLine("------------------------------------------");
     }

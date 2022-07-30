@@ -6,10 +6,10 @@ public class Decorador{
     {
         this.orden= orden;
     }
-    public virtual string software(){
-      return orden.software();
+    public virtual string hardware(){
+      return orden.hardware();
     }
-    public virtual string reparacion(){
-      return orden.reparacion();
+    public virtual string reparar_dispositivo(){
+      return orden.reparar_dispositivo();
     }
 }

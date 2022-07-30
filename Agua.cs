@@ -1,8 +1,8 @@
 public class Agua: Decorador{
 
     public Agua(OrdenBase ordenBase):base(ordenBase){ }
-    public virtual string reparacion(){
-        var repacion = "la reparacion de tu telefono que se le metio agua se completo..";
-          return repacion;
+    public virtual string reparar_dispositivo(){
+        var reparar = "Reparando por daños de agua del dispositivo... completo";
+          return reparar;
     }
 }
