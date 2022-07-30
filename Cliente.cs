@@ -1,5 +1,5 @@
 using System;
-namespace aporte2{
+namespace observador{
     public class Cliente{
         public string nombre{get; set;}
         public string dispositivo2{get; set;}

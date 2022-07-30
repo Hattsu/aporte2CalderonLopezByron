@@ -1,8 +1,8 @@
 ﻿using System;
-namespace aporte2{
+namespace observador  {
     class Program{
             
-        public static void main(string[] args){
+        public static void Main(string[] args){
             Celular celular = new Celular(00000,"huawei", "y221", "android", "japon","cargador","pantalla", "reproductor de musica", "camara de fotos");
             Tablet tablet = new Tablet(05648420,"Samsung", "y221", "android", "japon","cargador","pantalla", "reproductor de musica", "camara de fotos");
             Cliente cliente = new Cliente("Mario Guerrero", "Tablet", "camara");

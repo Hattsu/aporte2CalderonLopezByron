@@ -1,5 +1,3 @@
-using System;
-namespace aporte2{
     public class Dispositivos{
         public int imei{get; set;}
         public string marca {get; set;}
@@ -27,4 +25,3 @@ namespace aporte2{
 
         public void funcionalidades(){}
     }
-}

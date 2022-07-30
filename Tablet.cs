@@ -1,5 +1,4 @@
-using System;
-namespace aporte2{
+
         public class Tablet:Dispositivos{
         public Tablet(int imei, string marca, string modelo, string sistema, string fabricacion, string hardware, string funcionalidad1, string funcionalidad2, string funcionalidad3):base(imei, marca,  modelo, sistema, fabricacion, hardware, funcionalidad1, funcionalidad2, funcionalidad3){}
 
@@ -27,4 +26,3 @@ namespace aporte2{
             Console.WriteLine("chip: si");
         }
     }
-}
